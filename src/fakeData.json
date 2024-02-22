@@ -1,0 +1,155 @@
+{
+  "viber": {
+    "source": "Viber",
+    "messages": [
+      {
+        "timestamp": "2023-12-31T01:34:56",
+        "author": "Anthony",
+        "text": "Exploring the wonders of messaging apps, sending greetings to all!",
+        "likes": 2568
+      },
+      {
+        "timestamp": "2023-11-30T05:45:00",
+        "author": "Blesses",
+        "text": "Just checking in: How is everyone doing today?",
+        "likes": 6452
+      },
+      {
+        "timestamp": "2023-10-29T09:00:00",
+        "author": "Chris",
+        "text": "Embracing the day with warm greetings to everyone!",
+        "likes": 3547
+      },
+      {
+        "timestamp": "2023-09-28T16:20:45",
+        "author": "Eva",
+        "text": "Received another interesting message today.",
+        "likes": 4723
+      },
+      {
+        "timestamp": "2023-08-27T18:30:00",
+        "author": "Frank",
+        "text": "Sharing another intriguing update, hope you all enjoy!",
+        "likes": 5898
+      },
+      {
+        "timestamp": "2023-07-26T21:45:00",
+        "author": "Grace",
+        "text": "Sending positive vibes your way!",
+        "likes": 3921
+      }
+    ]
+  },
+  "telegram": {
+    "source": "Telegram",
+    "messages": [
+      {
+        "timestamp": "2023-06-25T02:00:00",
+        "author": "Anthony",
+        "text": "Greetings from the world of instant messaging, where messages flow like water.",
+        "likes": 4992
+      },
+      {
+        "timestamp": "2023-05-24T07:15:30",
+        "author": "Blank",
+        "text": "Wondering: What's up with all of you today?",
+        "likes": 6459
+      },
+      {
+        "timestamp": "2023-04-23T10:20:45",
+        "author": "Max",
+        "text": "Keeping the conversation alive!",
+        "likes": 3657
+      },
+      {
+        "timestamp": "2023-03-22T14:30:00",
+        "author": "Julia",
+        "text": "Sharing thoughts with you.",
+        "likes": 5243
+      },
+      {
+        "timestamp": "2023-02-21T17:45:00",
+        "author": "Sirius",
+        "text": "Another day, another intriguing update.",
+        "likes": 3948
+      },
+      {
+        "timestamp": "2023-01-20T19:55:00",
+        "author": "Adam",
+        "text": "Exploring ideas and thoughts.",
+        "likes": 4862
+      },
+      {
+        "timestamp": "2022-12-19T22:10:00",
+        "author": "Richard",
+        "text": "Let's dive into a new topic!",
+        "likes": 3754
+      },
+      {
+        "timestamp": "2022-11-18T19:55:00",
+        "author": "Penny",
+        "text": "A glimpse into the day.",
+        "likes": 4821
+      }
+    ]
+  },
+  "whatsapp": {
+    "source": "WhatsApp",
+    "messages": [
+      {
+        "timestamp": "2023-10-17T03:20:45",
+        "author": "Vadim",
+        "text": "A casual hello to all!",
+        "likes": 5867
+      },
+      {
+        "timestamp": "2023-09-16T08:30:00",
+        "author": "Stas",
+        "text": "Sharing thoughts with you.",
+        "likes": 6473
+      },
+      {
+        "timestamp": "2023-08-15T11:45:00",
+        "author": "Cloud",
+        "text": "Hope you enjoy reading!",
+        "likes": 5432
+      },
+      {
+        "timestamp": "2023-07-14T14:55:00",
+        "author": "David",
+        "text": "A quick update for today.",
+        "likes": 6110
+      },
+      {
+        "timestamp": "2023-06-13T16:10:00",
+        "author": "Eva",
+        "text": "Sharing a bit of my day.",
+        "likes": 5478
+      },
+      {
+        "timestamp": "2023-05-12T19:20:00",
+        "author": "Mark",
+        "text": "Keeping the conversation going!",
+        "likes": 6899
+      },
+      {
+        "timestamp": "2023-04-11T21:30:00",
+        "author": "Anny",
+        "text": "Let's chat!",
+        "likes": 6210
+      },
+      {
+        "timestamp": "2023-03-10T21:30:00",
+        "author": "Vlad",
+        "text": "Thoughts for the day.",
+        "likes": 5723
+      },
+      {
+        "timestamp": "2023-02-09T21:30:00",
+        "author": "Jane",
+        "text": "A glimpse into my world.",
+        "likes": 5301
+      }
+    ]
+  }
+}
