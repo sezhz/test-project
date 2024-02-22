@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import AccountField from "./AccountField";
 import useLocalStorage from "../../hooks/useLocalStorage";
 
@@ -62,6 +63,12 @@ const AccountLinks = ({ onProfileUpdate }) => {
       {renderAccountField("Telegram", "telegram")}
       {renderAccountField("Viber", "viber")}
       {renderAccountField("WhatsApp", "whatsapp")}
+      <Link
+        to="/dashboard"
+        className="text-xl text-gray-500 hover:text-gray-800 my-6"
+      >
+        Перейти до повідомлень
+      </Link>
     </div>
   );
 };

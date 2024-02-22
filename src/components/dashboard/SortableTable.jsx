@@ -12,34 +12,32 @@ const SortableTable = ({
     ascending: defaultSortOrder === "asc",
   });
 
+  const { field, ascending } = sortOrder;
+
+  const compareValues = (a, b) => {
+    if (ascending) {
+      return a > b ? 1 : a < b ? -1 : 0;
+    } else {
+      return a < b ? 1 : a > b ? -1 : 0;
+    }
+  };
+
   const handleSort = (field) => {
     setSortOrder({
       field,
-      ascending: sortOrder.field === field ? !sortOrder.ascending : true,
+      ascending: field === sortOrder.field ? !ascending : true,
     });
   };
 
   const sortedData = [...data].sort((a, b) => {
-    const valueA = a[sortOrder.field];
-    const valueB = b[sortOrder.field];
+    const valueA = a[field];
+    const valueB = b[field];
 
-    if (sortOrder.ascending) {
-      return sortOrder.field === "timestamp"
+    return field === "timestamp"
+      ? ascending
         ? new Date(valueA) - new Date(valueB)
-        : valueA > valueB
-        ? 1
-        : valueA < valueB
-        ? -1
-        : 0;
-    } else {
-      return sortOrder.field === "timestamp"
-        ? new Date(valueB) - new Date(valueA)
-        : valueA < valueB
-        ? 1
-        : valueA > valueB
-        ? -1
-        : 0;
-    }
+        : new Date(valueB) - new Date(valueA)
+      : compareValues(valueA, valueB);
   });
 
   return (
@@ -59,7 +57,7 @@ const SortableTable = ({
                     sortOrder.ascending ? "top-2" : "bottom-2"
                   }`}
                 >
-                  {sortOrder.ascending ? "↑" : "↓"}
+                  {sortOrder.ascending ? "↓" : "↑"}
                 </span>
               )}
             </th>

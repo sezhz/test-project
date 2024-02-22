@@ -61,7 +61,7 @@ const Dashboard = () => {
   );
 
   return (
-    <div className="flex flex-col w-full h-full max-h-screen p-8 px-1 sm:px-80 sm:py-10">
+    <div className="flex flex-col w-full h-full max-h-screen p-8 px-1 pb-0 sm:px-80 sm:pb-20">
       <Statistics statistics={statistics} />
       <SearchInput filterText={filterText} setFilterText={setFilterText} />
       {Object.values(filledStatus).some((filled) => filled) ? (

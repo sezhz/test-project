@@ -43,13 +43,13 @@ const AccountField = ({
         {!isEditing ? (
           <div className="flex ml-2 space-x-2">
             <button
-              className="text-xs bg-blue-500 text-white px-2 py-1 rounded-md"
+              className="bg-blue-500 hover:bg-blue-600 text-white px-2 py-1 rounded-md"
               onClick={onToggleEdit}
             >
               <FontAwesomeIcon icon={faEdit} />
             </button>
             <button
-              className="text-xs bg-gray-500 text-white px-2 py-1 rounded-md"
+              className="bg-gray-500 hover:bg-gray-600 text-white px-2 py-1 rounded-md"
               onClick={handleDisconnect}
             >
               <FontAwesomeIcon icon={faUnlink} />
@@ -57,7 +57,7 @@ const AccountField = ({
           </div>
         ) : (
           <button
-            className="text-xs bg-green-500 text-white px-2 py-1 rounded-md ml-1"
+            className=" bg-green-500 hover:bg-green-600 text-white px-2 py-1 rounded-md ml-1"
             onClick={() => {
               onUpdate(value);
               onToggleEdit();
