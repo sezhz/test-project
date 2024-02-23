@@ -20,7 +20,7 @@ const Authorization = ({ onLogin, users }) => {
       navigate("/dashboard", { state: { username } });
       setError("");
     } else {
-      setError("Не вірний логін або пароль");
+      setError("Невірний логін або пароль");
     }
   };
 
