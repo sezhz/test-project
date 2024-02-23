@@ -1,0 +1,32 @@
+[
+  {
+    "label": "Ім'я",
+    "key": "username",
+    "placeholder": "Вкажіть ваше ім'я *",
+    "isTextarea": false
+  },
+  {
+    "label": "Прізвище",
+    "key": "userSurname",
+    "placeholder": "Ваше прізвище *",
+    "isTextarea": false
+  },
+  {
+    "label": "Ел. пошта",
+    "key": "email",
+    "placeholder": "example@gmail.com *",
+    "isTextarea": false
+  },
+  {
+    "label": "Пароль",
+    "key": "password",
+    "placeholder": "*******",
+    "isTextarea": false
+  },
+  {
+    "label": "Про себе",
+    "key": "about",
+    "placeholder": "Розкажіть про себе",
+    "isTextarea": true
+  }
+]
