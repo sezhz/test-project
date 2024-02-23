@@ -9,7 +9,6 @@ const AccountField = ({
   onDisconnect,
   isEditing,
   onToggleEdit,
-  isFilled,
 }) => {
   const [showConfirmation, setShowConfirmation] = useState(false);
 

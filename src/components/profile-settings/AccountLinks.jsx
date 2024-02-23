@@ -57,7 +57,7 @@ const AccountLinks = ({ onProfileUpdate }) => {
   );
 
   return (
-    <div className="sm:w-1/2 h-full p-4 flex flex-col items-center border border-gray-400 rounded-lg">
+    <div className="sm:w-1/2 h-full p-4 flex flex-col items-center border border-gray-400 rounded-lg bg-gray-100">
       <h2 className="text-2xl font-semibold mb-14">Прив'язка акаунтів</h2>
 
       {renderAccountField("Telegram", "telegram")}

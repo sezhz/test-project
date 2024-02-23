@@ -3,7 +3,7 @@ import SortableTable from "./SortableTable";
 
 const MessageTable = ({ columns, data }) => {
   return (
-    <div className="max-h-full overflow-y-auto">
+    <div className="max-h-full overflow-y-auto bg-gray-200">
       <SortableTable
         columns={columns}
         data={data}

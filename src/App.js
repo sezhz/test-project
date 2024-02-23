@@ -5,8 +5,8 @@ import Authorization from "./components/Authorization";
 import Dashboard from "./components/dashboard/Dashboard";
 import ProfileSettings from "./components/profile-settings/ProfileSettings";
 import AdminProcessing from "./components/AdminProcessing";
-import "./output.css";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
   const [filledStatus, setFilledStatus] = useState({
@@ -73,6 +73,7 @@ function App() {
         )}
         <Route path="/" element={<Navigate to="/login" />} />
       </Routes>
+      {!isLoginPage && !isRegistrationPage && <Footer />}
     </div>
   );
 }
